@@ -17,7 +17,7 @@ body {
 
 body {
 
-  background-color: #b8b8bb;
+  background-color: #0f0f0f;
   color: #070505;
   font-family: Candara, Helvetica, sans-serif;
   margin: 0;
@@ -90,6 +90,7 @@ body {
   margin: 20px 0 20px 0;
   border-radius: 20px;
   box-shadow: 0 1px 3px rgb(0, 0, 0, .3);
+  border: #daf108 solid;
 
 }
 
@@ -100,7 +101,8 @@ body {
   margin: 20px 0 30px 0;
   padding: 3px 0px 15px 0px;
   border-radius: 20px;
-  box-shadow: 0 1px 3px rgb(0, 0, 0, .3);
+  box-shadow: 0 1px 3px rgb(61, 61, 61, .3);
+  border: #daf108 solid;
 
 }
 
@@ -195,7 +197,7 @@ a {
 #Ifood img:hover,
 #zap img:hover {
 
-  box-shadow: 5px 10px 15px #4e4e4e;
+  box-shadow: 5px 10px 15px #242424;
 
 }
 
@@ -235,7 +237,7 @@ a {
 
 .produto:hover {
 
-  box-shadow: 5px 7px 10px 8px #4b4b4b;
+  box-shadow: 5px 10px 15px #dad7d7;
   color: #ffffff;
   background-color: #020122;
   border: #daf108 solid;
