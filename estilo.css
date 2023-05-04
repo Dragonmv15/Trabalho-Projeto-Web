@@ -1,0 +1,466 @@
+html,
+body {
+
+  font-family: Raleway, sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background-color: #b8b8bb;
+  color: #070505;
+  font-family: Candara, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+
+#logoImg {
+
+  display: flex;
+  position: relative;
+  right: 1%;
+  padding: 10px;
+  height: 150px;
+  margin-right: 10px;
+  pointer-events: none;
+  user-select: none;
+
+}
+
+.menu {
+
+  padding: 500;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #020202;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, .1);
+  border-radius: 5px;
+
+}
+
+.menu2 {
+  padding: 500;
+  border-top: solid #ffd800;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #020202;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, .1);
+  border-radius: 5px;
+
+}
+
+.menu2 a {
+
+  padding: 20px;
+  height: 100;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background-color .5s;
+
+}
+
+.menu2 a:hover {
+
+  background-color: #ffd800;
+  color: #000000;
+  transition: background-color .5s;
+
+}
+
+.card {
+
+  background-color: #020122;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, .3);
+
+}
+
+.card2 {
+  box-sizing: content-box;
+  background-color: #020122;
+  bottom: 10px;
+  margin: 20px 0 30px 0;
+  padding: 3px 0px 15px 0px;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, .3);
+
+}
+
+.card2 p {
+  margin: 3px;
+}
+
+h1,
+h2,
+p,
+a {
+
+  text-align: center;
+  font-family: Libre-Baskerville;
+
+}
+
+/* Botão */
+
+.container {
+  position: relative;
+  left: 25%;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+#buttonifood {
+  outline: none;
+  position: relative;
+  top: 5px;
+  color: #ffffff;
+  padding: 6px;
+  height: 40px;
+  width: 10px;
+  border-radius: 40px;
+  background: #000000;
+  border: 2px solid #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0;
+}
+
+#buttonzap {
+  outline: none;
+  position: relative;
+  top: 20px;
+  color: #ffffff;
+  padding: 5px;
+  height: 40px;
+  width: 10px;
+  border-radius: 40px;
+  background: #000000;
+  border: 2px solid #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0;
+}
+
+#buttonifood:hover {
+
+  background: #800101;
+
+}
+
+#buttonzap:hover {
+
+  background: #046e01;
+
+}
+
+#zap img {
+
+  display: grid;
+  position: relative;
+  left: 10%;
+  width: 75px;
+  border-radius: 50%;
+
+}
+
+#Ifood img {
+
+  display: grid;
+  position: absolute;
+  right: 10%;
+  width: 75px;
+  border-radius: 50%;
+
+
+
+}
+
+#Ifood img:hover,
+#zap img:hover {
+
+  box-shadow: 5px 10px 15px #4e4e4e;
+
+}
+
+.container a {
+
+  padding: 0px;
+  height: 100;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background-color .5s;
+}
+
+
+/* Catálogo*/
+
+.coluna-esquerda {
+
+  width: 75%;
+  float: left;
+  color: #fff;
+
+}
+
+.produto {
+
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  transition: box-shadow .5s;
+  border-radius: 15px;
+  height: 275px;
+  color: #ffffff;
+
+
+}
+
+.produto:hover {
+
+  box-shadow: 5px 7px 10px 8px #4b4b4b;
+  color: #ffffff;
+  background-color: #020122;
+  border: #daf108 solid;
+
+}
+
+
+.produto img {
+
+  border-radius: 15%;
+  height: 110px;
+  border: 2px solid #daf108;
+  margin-top: 5px;
+
+}
+
+.produto p {
+
+  margin: 5px;
+  border-radius: 50%;
+
+}
+
+.tituloProduto {
+  font-weight: bold;
+}
+
+
+
+.grid {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.minGrid {
+
+  height: 200px;
+  overflow: hidden;
+
+}
+
+/* banner de pedidos */
+
+.coluna-direita {
+
+  width: 25%;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  right: 1px;
+}
+
+#pedido {
+
+  height: auto;
+  background-size: 150%;
+  color: #ffffff;
+  transition: box-shadow .5s;
+  cursor: pointer;
+  position: relative;
+
+}
+
+#pedido:hover {
+
+  box-shadow: 10px 10px 16px #5e5e5e;
+
+}
+
+
+/* Sobre nos */
+
+.SobreNos {
+
+  position: relative;
+  left: 12%;
+  width: 75%;
+  float: center;
+  color: #fff;
+  font-family: Libre-Baskerville;
+
+}
+
+.SobreNos img {
+  position: relative;
+  left: 22%;
+}
+
+.contato label {
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.contato input,
+.contato textarea {
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px 2%;
+  width: 96%;
+}
+
+.contato textarea {
+  height: 150px;
+}
+
+.contato input .botao {
+  width: auto;
+}
+
+.contato iframe {
+
+
+  width: 75%;
+  position: relative;
+  left: 100px;
+
+}
+
+/* parte responsiva */
+
+@media screen and (max-width: 800px) {
+
+  .SobreNos img {
+    position: relative;
+    padding: 10px;
+    height: 150px;
+    left: 5%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .coluna-esqueda {
+
+    width: 100%;
+
+  }
+
+  .coluna-direita {
+    position: relative;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .card {
+    position: relative;
+    left: 15%;
+  }
+
+  header h1 {
+
+    font-size: 3rem;
+
+  }
+
+  .container {
+    position: relative;
+    left: 25%;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+  }
+
+  .contato iframe {
+
+
+    width: 75%;
+    position: relative;
+    left: 50px;
+
+  }
+
+  .SobreNos {
+
+    position: relative;
+    left: 1%;
+    width: 75%;
+    float: center;
+    color: #fff;
+    font-family: Libre-Baskerville;
+
+  }
+
+  .SobreNos img {
+    position: relative;
+    padding: 10px;
+    height: 150px;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .menu,
+  .menu a {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .contato iframe {
+
+
+    width: 75%;
+    position: relative;
+    left: 20px;
+
+  }
+
+  #logoImg {
+
+    display: flex;
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    height: 150px;
+
+  }
+
+}
